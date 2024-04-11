@@ -1,0 +1,60 @@
+body {
+    background-color: #ececec;
+    color: #3b3b3b;
+}
+
+.tabs {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.tabButton {
+    padding: 10px 20px;
+    background-color: #dcdcdc;
+    border: none;
+    cursor: pointer;
+}
+
+.tabButton:hover {
+    background-color: #ddd;
+}
+
+.tabContent {
+    padding: 20px;
+    background-color: #e3e3e3;
+    color: #262626;
+}
+
+
+
+#darkModeButton {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #d5d5d5;
+}
+
+.dark .tabs .tabButton {
+    background-color: #333333;
+    color: #d5d5d5;
+}
+
+.dark .tabContent {
+    background-color: #1f1f1f;
+    color: #d5d5d5;
+}
+
+
+
+
+
