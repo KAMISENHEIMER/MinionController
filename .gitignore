@@ -1,0 +1,10 @@
+#ignore everything
+*
+*/
+
+#unignore what we want to track
+!*.html
+!*.js
+!*.css
+!*.yml
+!.gitignore
