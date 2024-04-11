@@ -38,6 +38,10 @@ body {
     border: none;
     cursor: pointer;
 }
+#darkModeButton.dark {
+    background-color: #ddd;
+    color: #111;
+}
 
 body.dark {
     background-color: #121212;
