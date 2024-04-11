@@ -3,6 +3,7 @@
 */
 
 #unignore what we want to track
+!*.md
 !*.html
 !*.js
 !*.css
