@@ -3,7 +3,16 @@ class Statblock {
     constructor(name, tohit, damage) {
         this.name = name;
         this.tohit = tohit;
-        this.damage = damage;
+        const damageStringSplit = damage.split("+");
+        this.damageDie = [];
+        this.damageMods = [];
+        for (let i=0; i<damageStringSplit.length; i++) {
+            if (damageStringSplit[i].includes("d")) 
+                this.damageDie.push(damageStringSplit[i]);
+            else
+                this.damageMods.push(damageStringSplit[i]);
+
+        }
     }
 }
 
