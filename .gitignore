@@ -9,3 +9,5 @@
 !*.css
 !*.yml
 !.gitignore
+
+!scripts
